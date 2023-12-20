@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+body{
+    background-image: url('/background.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    position: relative;
+    top: -2%;
+    height: 90%;
+    width: 62%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+
+/* HEADER */
+header{
+    text-align: center;
+    margin: 100px;
+    margin-bottom: 20px;
+}
+header>img{
+    height: 115px;
+}
+header>p{
+    font-size: 2em;
+    font-weight: 600;
+    color: #00dd00;
+}
+header>.nav{
+    background: #00dd00;
+    padding: 10px;
+}
+header>.nav>button{
+    padding: 2px 6px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+/* MAIN */
+main{
+    color: #fff; 
+    font-weight: 300;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 50%;
+}
+
+/* CARDS */
+.boardCard{
+    margin-top: 20px;
+}
+
+.boardchoice{
+    display: flex;
+}
+.boardchoice>*{padding: 5px;}
+
+.chargeBar{
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+.chargeBar.high{
+    background-color: #1ec31e;
+    width: 100%;
+}
+
+.chargeBar.med{
+    background-color: #f5b453;
+    width: 57%;
+}
+.chargeBar.low{
+    background-color: #be4141;
+    width: 23%;
+}
+
+
